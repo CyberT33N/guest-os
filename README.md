@@ -27,6 +27,10 @@ List for dependencies for any guest OS when you want to start developing.. As ex
 # Atom
 - https://atom.io/
 
+
+<br />
+<br />
+
 ## Packages
 - https://atom.io/packages/minimap
 - https://atom.io/packages/minimap-cursorline
@@ -35,14 +39,20 @@ List for dependencies for any guest OS when you want to start developing.. As ex
 - https://atom.io/packages/atom-increment
 - https://atom.io/packages/neon-selection
 
+
+<br />
+<br />
+
 ## Syntax:
 atom-sublime-monokai-syntax
 
 
 
+<br />
+<br />
 
 ## styles.less (File > Stylesheet)
-
+```css
 atom-text-editor {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -69,16 +79,5 @@ atom-text-editor .cursor {
    border-color: white;
    border-width: .2vmax;
 }
+```
 
-
-
-<br />
-<br />
-
-
- _____________________________________________________
- _____________________________________________________
-
-
-<br />
-<br />

@@ -21,6 +21,7 @@ Fonts:
 <br />
 
 # Atom
+- https://atom.io/
 
 ## Packages
 - https://atom.io/packages/minimap

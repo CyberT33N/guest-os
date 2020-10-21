@@ -2,7 +2,11 @@
 List for dependencies for any guest OS when you want to start developing.. As example for companies..
 
 
-Fonts:
+
+<br />
+<br />
+
+# Fonts
 - https://github.com/tonsky/FiraCode
 - https://pcaro.es/d/full-hermit-2.0.tar.gz
 

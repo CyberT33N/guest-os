@@ -10,8 +10,10 @@ List for dependencies for any guest OS when you want to start developing.. As ex
 - https://github.com/tonsky/FiraCode
 - https://pcaro.es/d/full-hermit-2.0.tar.gz
 
-
-
+<br />
+<br />
+# Git Cheat Sheet
+https://phoenixnap.com/kb/git-commands-cheat-sheet
 
 <br />
 <br />

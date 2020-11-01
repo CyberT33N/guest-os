@@ -40,6 +40,8 @@ https://phoenixnap.com/kb/git-commands-cheat-sheet
 - https://atom.io/packages/minimap-pigments
 - https://atom.io/packages/atom-increment
 - https://atom.io/packages/neon-selection
+- https://atom.io/packages/iv-terminal
+- https://atom.io/packages/typescript
 
 
 <br />

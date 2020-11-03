@@ -18,7 +18,7 @@ https://phoenixnap.com/kb/git-commands-cheat-sheet
 
 ## GUI
 GitKraken (PREMIUM - Cross Platform): https://www.gitkraken.com/download
-Sourcetree (FREE - Windows & MAC): https://www.sourcetreeapp.com/
+<br>Sourcetree (FREE - Windows & MAC): https://www.sourcetreeapp.com/
 
 <br>
 <br>

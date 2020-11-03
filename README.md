@@ -3,20 +3,37 @@ List for software/dependencies for any guest OS when you want to start developin
 
 
 
-<br />
-<br />
+
+<br>
+<br>
+
+# Git
+
+## Command Line Cheat Sheet
+https://phoenixnap.com/kb/git-commands-cheat-sheet
+
+## GUI
+GitKraken (PREMIUM - Cross Platform): https://www.gitkraken.com/download
+Sourcetree (FREE - Windows & MAC): https://www.sourcetreeapp.com/
+
+<br>
+<br>
+
+
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+
+<br>
+<br>
 
 # Fonts
 - https://github.com/tonsky/FiraCode
 - https://pcaro.es/d/full-hermit-2.0.tar.gz
 
-<br />
-<br />
-# Git Cheat Sheet
-https://phoenixnap.com/kb/git-commands-cheat-sheet
 
-<br />
-<br />
 
 
  _____________________________________________________

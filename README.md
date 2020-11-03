@@ -1,5 +1,5 @@
 # Guest OS
-List for dependencies for any guest OS when you want to start developing.. As example for companies..
+List for software/dependencies for any guest OS when you want to start developing.. As example for companies..
 
 
 
@@ -118,7 +118,7 @@ printf "\nWe finished the .sh file :) - Created by Dennis Demand( https://github
 <br />
 <br />
 
-## Syntax:
+## Syntax
 atom-sublime-monokai-syntax
 
 

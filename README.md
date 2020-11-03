@@ -110,6 +110,11 @@ printf "\nWe finished the .sh file :) - Created by Dennis Demand( https://github
 <br />
 <br />
 
+## Packages
+```bash
+npm i -g typescript nodemon
+```
+
 
  _____________________________________________________
  _____________________________________________________

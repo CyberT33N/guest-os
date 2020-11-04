@@ -139,6 +139,7 @@ npm i -g typescript nodemon
 - https://atom.io/packages/neon-selection
 - https://atom.io/packages/iv-terminal
 - https://atom.io/packages/typescript
+- https://atom.io/packages/teletype
 
 
 <br />

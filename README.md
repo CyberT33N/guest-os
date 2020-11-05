@@ -120,15 +120,21 @@ npm i -g typescript nodemon
  _____________________________________________________
 
 
-<br />
-<br />
+<br>
+<br>
 
-# Atom
-- https://atom.io/
+# Atom (https://atom.io/)
 
 
-<br />
-<br />
+<br>
+<br>
+
+## Enable vertical lines
+Settings > Editor > Show Indent Guide
+
+<br>
+<br>
+
 
 ## Packages
 - https://atom.io/packages/minimap

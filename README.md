@@ -9,12 +9,6 @@ List for software/dependencies for any guest OS when you want to start developin
 
 # Git
 
-## Command Line Cheat Sheet
-https://phoenixnap.com/kb/git-commands-cheat-sheet
-
-<br>
-<br>
-
 
 ## GUI
 GitKraken (PREMIUM - Cross Platform): https://www.gitkraken.com/download

@@ -3,6 +3,21 @@ List for software/dependencies for any guest OS when you want to start developin
 
 
 
+# Windows
+- Resize Taskbar (https://www.youtube.com/watch?v=ZdXxNOdq4W0)
+
+
+<br>
+<br>
+
+
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+
+<br>
 
 <br>
 <br>

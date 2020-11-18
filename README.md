@@ -77,6 +77,16 @@ chmod +x mousewheel.sh
 
 # Git
 
+## Enable some colorization of Git output.
+```bash
+git config --global color.ui auto
+```
+
+
+## SSH
+- https://github.com/CyberT33N/git-cheat-sheet/blob/main/README.md#ssh
+
+
 
 ## GUI
 GitKraken (PREMIUM - Cross Platform): https://www.gitkraken.com/download

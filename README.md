@@ -218,6 +218,8 @@ Settings > Editor > Show Indent Guide
 - https://atom.io/packages/iv-terminal
 - https://atom.io/packages/typescript
 - https://atom.io/packages/teletype
+- https://atom.io/packages/atom-scale-factor
+
 
 
 <br />

@@ -11,7 +11,12 @@ List for software/dependencies for any guest OS when you want to start developin
 # Linux
 
 ## Ubuntu
-- Increase Scroll Speed (https://dev.to/bbavouzet/ubuntu-20-04-mouse-scroll-wheel-speed-536o)
+
+#### Execute .sh files on double click
+- https://askubuntu.com/questions/138908/how-to-execute-a-script-just-by-double-clicking-like-exe-files-in-windows/1255819#1255819
+
+#### Increase Scroll Speed
+- https://dev.to/bbavouzet/ubuntu-20-04-mouse-scroll-wheel-speed-536o
 ```bash
 ## Install imwheel
 sudo apt install imwheel

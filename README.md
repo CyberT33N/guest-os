@@ -12,6 +12,11 @@ List for software/dependencies for any guest OS when you want to start developin
 
 ## Ubuntu
 
+#### Change Scale
+```bash
+gsettings set org.gnome.desktop.interface text-scaling-factor 1.2
+```
+
 #### Execute .sh files on double click
 - https://askubuntu.com/questions/138908/how-to-execute-a-script-just-by-double-clicking-like-exe-files-in-windows/1255819#1255819
 

@@ -229,6 +229,8 @@ Settings > Editor > Show Indent Guide
 - https://atom.io/packages/typescript
 - https://atom.io/packages/teletype
 - https://atom.io/packages/atom-scale-factor
+- https://atom.io/packages/atom-markdown-auto-preview
+
 
 
 

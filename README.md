@@ -240,6 +240,7 @@ Add 'softWrap':true to the 'editor' section like this:
 - https://atom.io/packages/atom-scale-factor
 - https://atom.io/packages/atom-markdown-auto-preview
 - https://atom.io/packages/logo-file-icons
+- https://atom.io/packages/atom-live-server (https://www.youtube.com/watch?v=0Xy3yDDY4IE)
 
 
 <br />

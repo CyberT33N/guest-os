@@ -209,11 +209,19 @@ npm i -g typescript nodemon
 # Atom (https://atom.io/)
 
 
-<br>
-<br>
+<br><br>
 
-## Enable vertical lines
+## Enable Vertical Lines
 Settings > Editor > Show Indent Guide
+
+## Enable Line Wrap
+File > Config
+<br><br>
+Add 'softWrap':true to the 'editor' section like this:
+```cson
+'editor':
+  'softWrap': true
+```
 
 <br>
 <br>

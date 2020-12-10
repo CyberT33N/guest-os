@@ -229,8 +229,11 @@ Add 'softWrap':true to the 'editor' section like this:
 
 ## Packages
 ```bash
-apm install emmet minimap minimap-cursorline minimap-find-and-replace minimap-pigments atom-increment neon-selection iv-terminal typescript teletype atom-scale-factor atom-markdown-auto-preview logo-file-icons atom-live-server script linter-eslint hydrogen
+apm install highlight-selected atom-beautify pigments emmet minimap minimap-cursorline minimap-find-and-replace minimap-pigments atom-increment neon-selection iv-terminal typescript teletype atom-scale-factor atom-markdown-auto-preview logo-file-icons atom-live-server script linter-eslint hydrogen
 ```
+- https://atom.io/packages/highlight-selected (https://youtu.be/aiXNKHKWlmY?t=1549)
+- https://atom.io/packages/atom-beautify (https://youtu.be/aiXNKHKWlmY?t=1395)
+- https://atom.io/packages/pigments (https://youtu.be/aiXNKHKWlmY?t=993)
 - https://atom.io/packages/emmet (https://youtu.be/aiXNKHKWlmY?t=204)
 - https://atom.io/packages/minimap
 - https://atom.io/packages/minimap-cursorline

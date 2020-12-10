@@ -195,7 +195,7 @@ printf "\nWe finished the .sh file :) - Created by Dennis Demand( https://github
 
 ## Dependencies
 ```bash
-sudo apt install jupyter-core jupyter-notebook jupyter-client
+sudo apt install jupyter-core jupyter-notebook jupyter-client jupyter-console
 npm i -g typescript nodemon eslint ijavascript
 ijavascript
 ```

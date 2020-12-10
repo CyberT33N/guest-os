@@ -193,18 +193,19 @@ printf "\nWe finished the .sh file :) - Created by Dennis Demand( https://github
 <br />
 <br />
 
-## Packages
+## Dependencies
 ```bash
-npm i -g typescript nodemon eslint
+sudo apt install jupyter-core jupyter-notebook jupyter-client
+npm i -g typescript nodemon eslint ijavascript
+ijavascript
 ```
 
 
+<br><br>
  _____________________________________________________
  _____________________________________________________
 
-
-<br>
-<br>
+<br><br>
 
 # Atom (https://atom.io/)
 

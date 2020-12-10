@@ -227,6 +227,9 @@ Add 'softWrap':true to the 'editor' section like this:
 
 
 ## Packages
+```bash
+apm install minimap minimap-cursorline minimap-find-and-replace minimap-pigments atom-increment neon-selection iv-terminal typescript teletype atom-scale-factor atom-markdown-auto-preview logo-file-icons atom-live-server script linter-eslint hydrogen
+```
 - https://atom.io/packages/minimap
 - https://atom.io/packages/minimap-cursorline
 - https://atom.io/packages/minimap-find-and-replace
@@ -242,7 +245,7 @@ Add 'softWrap':true to the 'editor' section like this:
 - https://atom.io/packages/atom-live-server (https://www.youtube.com/watch?v=0Xy3yDDY4IE)
 - https://atom.io/packages/script
 - https://atom.io/packages/linter-eslint (https://www.youtube.com/watch?v=dG9EEkSCbWM)
-- https://atom.io/packages/hydrogen
+- https://atom.io/packages/hydrogen (If problem try: apm install hydrogen@2.9.0)
 
 
 

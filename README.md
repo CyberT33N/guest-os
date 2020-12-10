@@ -195,7 +195,7 @@ printf "\nWe finished the .sh file :) - Created by Dennis Demand( https://github
 
 ## Packages
 ```bash
-npm i -g typescript nodemon
+npm i -g typescript nodemon eslint
 ```
 
 
@@ -207,7 +207,6 @@ npm i -g typescript nodemon
 <br>
 
 # Atom (https://atom.io/)
-
 
 <br><br>
 
@@ -242,6 +241,7 @@ Add 'softWrap':true to the 'editor' section like this:
 - https://atom.io/packages/logo-file-icons
 - https://atom.io/packages/atom-live-server (https://www.youtube.com/watch?v=0Xy3yDDY4IE)
 - https://atom.io/packages/script
+- https://atom.io/packages/linter-eslint (https://www.youtube.com/watch?v=dG9EEkSCbWM)
 
 
 <br />

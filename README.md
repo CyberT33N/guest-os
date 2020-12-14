@@ -274,6 +274,7 @@ atom-text-editor {
   font-family: "Hermit"; /* change font here.. */
   font-weight: 500;
   line-height: 1.7;
+  background: #121212;
 }
 
 atom-text-editor.editor {

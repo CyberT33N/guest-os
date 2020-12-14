@@ -9,6 +9,8 @@ List for software/dependencies for any guest OS when you want to start developin
 - Video Background (https://rocksdanister.github.io/lively/)
 
 
+<br><br>
+
 # Linux
 
 ## Ubuntu
@@ -274,7 +276,7 @@ atom-text-editor {
   font-family: "Hermit"; /* change font here.. */
   font-weight: 500;
   line-height: 1.7;
-  background: #121212;
+  background: #191919;
 }
 
 atom-text-editor.editor {

@@ -6,14 +6,17 @@ List for software/dependencies for any guest OS when you want to start developin
 # Windows
 - Resize Taskbar (https://www.youtube.com/watch?v=ZdXxNOdq4W0)
 - Zoom IT (https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit)
-- Video Background (https://rocksdanister.github.io/lively/)
+- Live Wallpaper (https://rocksdanister.github.io/lively/)
 
 
 <br><br>
 
 # Linux
 
+<br>
+
 ## Ubuntu
+- Live Wallpaper (https://github.com/cheesecakeufo/komorebi)
 
 #### Change Scale
 ```bash

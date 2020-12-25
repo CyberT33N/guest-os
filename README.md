@@ -264,16 +264,20 @@ apm install highlight-selected atom-beautify pigments emmet minimap minimap-curs
 <br />
 <br />
 
-# Linter
+
+
+## Linter
 - Disable Linter (https://atom.io/packages/linter) if installed and use Diagnostics of atom-ide-ui instead (Packages > atom-ide-ui > Settings > Enabled Features > Diagnostics).
 
-## htmllint
+#### htmllint
 ```bash
 npm install htmllint --save-dev
 ```
 
 <br />
 <br />
+
+
 
 ## Syntax
 atom-sublime-monokai-syntax

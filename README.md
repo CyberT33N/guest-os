@@ -234,7 +234,7 @@ Add 'softWrap':true to the 'editor' section like this:
 
 ## Packages
 ```bash
-apm install highlight-selected atom-beautify pigments emmet minimap minimap-cursorline minimap-find-and-replace minimap-pigments atom-increment neon-selection iv-terminal typescript teletype atom-scale-factor atom-markdown-auto-preview logo-file-icons atom-live-server script linter-htmllint linter-eslint hydrogen
+apm install highlight-selected atom-beautify pigments emmet minimap minimap-cursorline minimap-find-and-replace minimap-pigments atom-increment neon-selection iv-terminal typescript teletype atom-scale-factor atom-markdown-auto-preview logo-file-icons atom-live-server script linter-htmllint linter-csslint linter-eslint hydrogen
 ```
 - https://atom.io/packages/highlight-selected (https://youtu.be/aiXNKHKWlmY?t=1549)
 - https://atom.io/packages/atom-beautify (https://youtu.be/aiXNKHKWlmY?t=1395)
@@ -255,6 +255,7 @@ apm install highlight-selected atom-beautify pigments emmet minimap minimap-curs
 - https://atom.io/packages/atom-live-server (https://www.youtube.com/watch?v=0Xy3yDDY4IE)
 - https://atom.io/packages/script
 - https://atom.io/packages/linter-htmllint
+- https://atom.io/packages/linter-csslint
 - https://atom.io/packages/linter-eslint (https://www.youtube.com/watch?v=dG9EEkSCbWM)
 - https://atom.io/packages/hydrogen (https://nteract.gitbooks.io/hydrogen/content | https://www.youtube.com/watch?v=VcDbxEV-OI0)
 <br> If you got missing lib folder error try: apm install hydrogen@2.9.0

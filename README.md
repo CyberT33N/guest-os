@@ -201,7 +201,7 @@ printf "\nWe finished the .sh file :) - Created by Dennis Demand( https://github
 ## Dependencies
 ```bash
 sudo apt install jupyter-core jupyter-notebook jupyter-client jupyter-console
-npm i -g typescript nodemon eslint ijavascript
+npm i -g typescript nodemon ijavascript
 ijavascript
 ```
 
@@ -262,8 +262,7 @@ apm install highlight-selected atom-beautify pigments emmet minimap minimap-curs
 
 
 
-<br />
-<br />
+<br><br>
 
 
 
@@ -273,6 +272,22 @@ apm install highlight-selected atom-beautify pigments emmet minimap minimap-curs
 #### htmllint
 ```bash
 npm install htmllint --save-dev
+```
+<br>
+
+#### .htmllintrc
+```json
+{
+  "indent-width": 2
+}
+```
+
+
+<br><br>
+
+#### eslint
+```bash
+npm install eslint --save-dev
 ```
 
 #### .eslintrc.yml
@@ -291,15 +306,8 @@ rules:
   brace-style: off
 ```
 
-#### .htmllintrc
-```json
-{
-  "indent-width": 2
-}
-```
 
-<br />
-<br />
+<br><br>
 
 
 

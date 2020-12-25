@@ -274,6 +274,29 @@ apm install highlight-selected atom-beautify pigments emmet minimap minimap-curs
 npm install htmllint --save-dev
 ```
 
+#### .eslintrc.yml
+```yml
+env:
+  browser: true
+  es2021: true
+  node: true
+extends:
+  - google
+parserOptions:
+  ecmaVersion: 12
+  sourceType: module
+rules:
+  arrow-parens: off
+  brace-style: off
+```
+
+#### .htmllintrc
+```json
+{
+  "indent-width": 2
+}
+```
+
 <br />
 <br />
 

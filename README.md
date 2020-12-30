@@ -8,11 +8,11 @@ List for software/dependencies for any guest OS when you want to start developin
 - Zoom IT (https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit)
 - Live Wallpaper (https://rocksdanister.github.io/lively/)
 
-## guides
-- Make Window 10 Bootable DVD Easily (How To) (https://www.youtube.com/watch?v=NkySPUcwNhw)
+## Guides
+- How to create bootable DVD with Windows 10 only (https://www.youtube.com/watch?v=NkySPUcwNhw)
 
-## errors/bugs
-- DVD Drive not working in windows 10 [3 SIMPLE METHODS] (https://www.youtube.com/watch?v=VbvSwsIlvxc)
+## Errors/Bugs
+- DVD Drive not working in Windows 10 [3 SIMPLE METHODS] (https://www.youtube.com/watch?v=VbvSwsIlvxc)
 
 <br><br>
 

@@ -192,7 +192,7 @@ printf "\n\nWe will download an install now Node.js 15.x\n"
 curl --silent --location https://rpm.nodesource.com/setup_15.x | sudo bash -
 sudo yum -y install nodejs
 #-------------------------------------------------------------------------------
-printf "\n\nWe will display now the current installed version of node:\n"
+printf "\n\nWe will display nowhttps://www.jetbrains.com/webstorm/guide/tips/soft-wraps/ the current installed version of node:\n"
 node -v
 printf "\n\nWe will display now the current installed version of npm:\n"
 npm -v
@@ -221,6 +221,10 @@ ijavascript
 
 ## Create Desktop Shortcut
 - Tools > Create Desktop Entry
+
+## Soft Wraps
+- Preferences/Settings | Editor | General > Soft-wrap files (https://www.jetbrains.com/webstorm/guide/tips/soft-wraps/)
+
 
 <br><br>
 

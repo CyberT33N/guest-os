@@ -20,6 +20,13 @@ List for software/dependencies for any guest OS when you want to start developin
 
 <br>
 
+## Fedora
+```bash
+sudo dnf install make automake gcc gcc-c++ kernel-devel
+```
+
+<br><br>
+
 ## Ubuntu
 - Live Wallpaper (https://github.com/cheesecakeufo/komorebi)
 
@@ -206,7 +213,7 @@ printf "\nWe finished the .sh file :) - Created by Dennis Demand( https://github
 ## Dependencies
 ```bash
 sudo apt install jupyter-core jupyter-notebook jupyter-client jupyter-console
-npm i -g typescript nodemon ijavascript
+npm i -g typescript nodemon ijavascript node-gyp
 ijavascript
 ```
 

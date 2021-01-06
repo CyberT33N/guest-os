@@ -144,8 +144,7 @@ GitKraken (PREMIUM - Cross Platform): https://www.gitkraken.com/download
  _____________________________________________________
 
 
-<br />
-<br />
+<br><br>
 
 
 # Node.js 
@@ -153,10 +152,21 @@ GitKraken (PREMIUM - Cross Platform): https://www.gitkraken.com/download
 ## Windows
 https://nodejs.org/dist/v15.0.1/node-v15.0.1-x64.msi
 
+<br><br><br><br>
+
 ## MAC
 https://nodejs.org/dist/v15.0.1/node-v15.0.1.pkg
 
+<br><br><br><br>
+
 ## Linux
+
+#### NVM (https://github.com/nvm-sh/nvm)
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+```
+
+<br><br>
 
 #### Debian (Ubuntu, Mint, ..)
 ```bash

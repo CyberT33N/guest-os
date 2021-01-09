@@ -2,6 +2,8 @@
 List for software/dependencies for any guest OS when you want to start developing.. As example for companies..
 
 
+# Cross Platform
+- KeePassXC - Cross-Platform Password Manager (https://keepassxc.org/download/)
 
 # Windows
 - Resize Taskbar (https://www.youtube.com/watch?v=ZdXxNOdq4W0)

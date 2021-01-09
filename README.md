@@ -2,13 +2,20 @@
 List for software/dependencies for any guest OS when you want to start developing.. As example for companies..
 
 
+<br><br>
+
 # Cross Platform
 - KeePassXC - Cross-Platform Password Manager (https://keepassxc.org/download/)
+- Gitlab Docker (https://hub.docker.com/r/gitlab/gitlab-ce)
+
+
+<br><br>
 
 # Windows
 - Resize Taskbar (https://www.youtube.com/watch?v=ZdXxNOdq4W0)
 - Zoom IT (https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit)
 - Live Wallpaper (https://rocksdanister.github.io/lively/)
+- Confluence Server (https://www.atlassian.com/de/software/confluence/download)
 
 ## Guides
 - How to create bootable DVD with Windows 10 only (https://www.youtube.com/watch?v=NkySPUcwNhw)
@@ -16,9 +23,18 @@ List for software/dependencies for any guest OS when you want to start developin
 ## Errors/Bugs
 - DVD Drive not working in Windows 10 [3 SIMPLE METHODS] (https://www.youtube.com/watch?v=VbvSwsIlvxc)
 
+
+
+
+
+
+
+
+
 <br><br>
 
 # Linux
+- Confluence Server (https://www.atlassian.com/de/software/confluence/download)
 
 <br>
 
@@ -26,6 +42,14 @@ List for software/dependencies for any guest OS when you want to start developin
 ```bash
 sudo dnf install make automake gcc gcc-c++ kernel-devel
 ```
+
+## Guides
+- How to run GitLab in a docker container (https://www.youtube.com/watch?v=sLnbWGN77Uc)
+
+
+
+
+
 
 <br><br>
 
@@ -90,20 +114,37 @@ chmod +x mousewheel.sh
 ```
 
 
-<br>
-<br>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
  _____________________________________________________
  _____________________________________________________
-
-
-
-<br>
-
-<br>
-<br>
+<br><br>
 
 # Git
 
@@ -122,18 +163,23 @@ git config --global color.ui auto
 GitKraken (PREMIUM - Cross Platform): https://www.gitkraken.com/download
 <br>Sourcetree (FREE - Windows & MAC): https://www.sourcetreeapp.com/
 
-<br>
-<br>
 
 
 
+
+
+
+
+
+
+
+
+
+<br><br>
  _____________________________________________________
  _____________________________________________________
 
-
-
-<br>
-<br>
+<br><br>
 
 # Fonts
 - https://github.com/tonsky/FiraCode
@@ -142,9 +188,19 @@ GitKraken (PREMIUM - Cross Platform): https://www.gitkraken.com/download
 
 
 
- _____________________________________________________
- _____________________________________________________
 
+
+
+
+
+
+
+
+
+
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
 
 <br><br>
 

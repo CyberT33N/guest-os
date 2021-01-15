@@ -350,11 +350,6 @@ ijavascript
 
 <br><br>
 
-## Syntax Them
-- Monocai Color Theme (https://plugins.jetbrains.com/plugin/12163-monocai-color-theme)
-
-<br><br>
-
 ## Vertical Line Indentation
 - Go to Settings/Editor/General/Appearance and select Show vertical indent guides to enable this feature in IntelliJ. (https://i.stack.imgur.com/NsoJV.png)
 

@@ -317,6 +317,14 @@ ijavascript
 
 # Webstorm (https://www.jetbrains.com/de-de/webstorm/)
 
+
+## Change Fonts
+- File > Settings > Editor > Font
+
+<br><br>
+
+
+
 ## Create Desktop Shortcut
 - Tools > Create Desktop Entry
 

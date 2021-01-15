@@ -324,6 +324,7 @@ ijavascript
 
 
 ## Import Color Scheme
+- File > Settings > Editor > Color Scheme > Settings Wheel Icon > Import Scheme
 - You can import .xml or .icls
 - https://www.jetbrains.com/help/webstorm/settings-colors-and-fonts.html
 

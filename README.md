@@ -56,6 +56,69 @@ sudo dnf install make automake gcc gcc-c++ kernel-devel
 
 ## Ubuntu
 - Live Wallpaper (https://github.com/cheesecakeufo/komorebi)
+- GUFW (http://gufw.org/)
+
+<br><br>
+
+#### dependencies
+```bash
+```
+
+
+#### Security
+```bash
+sudo apt purge avahi-daemon
+
+sudo ufw enable
+sudo ufw default deny incoming
+sudo ufw default deny forward
+sudo ufw default deny outgoing
+
+# find your internet device
+ifconfig -a
+# allow internet for your device
+sudo ufw allow out on <interface> to 1.1.1.1 proto udp port 53 comment 'allow DNS on <interface>'
+sudo ufw allow out on <interface> to any proto tcp port 80 comment 'allow HTTP on <interface>'
+sudo ufw allow out on <interface> to any proto tcp port 443 comment 'allow HTTPS on <interface>'
+# show rules
+sudo ufw status numbered
+```
+
+<br><br>
+
+#### Sandbox
+- https://null-byte.wonderhowto.com/how-to/locking-down-linux-using-ubuntu-as-your-primary-os-part-3-application-hardening-sandboxing-0185710/
+- https://www.youtube.com/watch?v=PQo9PEdVuIw
+```bash
+sudo apt-get install apparmor-profiles apparmor-utils
+sudo aa-enforce /etc/apparmor.d/*
+sudo apt install firejail
+```
+
+#### firejail all paramater
+https://firejail.wordpress.com/features-3/man-firejail/
+
+
+
+<br><br>
+
+
+#### KDE
+```bash
+sudo apt install kde-full
+
+# later choose SDDM display manager
+```
+
+<br><br>
+
+#### disable Baloo
+```bash
+# You may have to create a autostart script for this because after restart it will start again
+balooctrl disable
+```
+
+<br><br>
 
 #### Change Scale
 ```bash

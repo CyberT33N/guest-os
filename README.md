@@ -89,6 +89,7 @@ sudo ufw status numbered
 #### Sandbox
 - https://null-byte.wonderhowto.com/how-to/locking-down-linux-using-ubuntu-as-your-primary-os-part-3-application-hardening-sandboxing-0185710/
 - https://www.youtube.com/watch?v=PQo9PEdVuIw
+- https://github.com/CyberT33N/firejail-cheat-sheet
 ```bash
 sudo apt-get install apparmor-profiles apparmor-utils
 sudo aa-enforce /etc/apparmor.d/*

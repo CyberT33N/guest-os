@@ -36,6 +36,7 @@ List for software/dependencies for any guest OS when you want to start developin
 # Linux
 - Confluence Server (https://www.atlassian.com/de/software/confluence/download)
 - Yakuake Dropdown Terminal (https://apps.kde.org/en/yakuake)
+- bash-it (https://github.com/Bash-it/bash-it)
 
 <br>
 

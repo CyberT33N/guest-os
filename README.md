@@ -37,6 +37,10 @@ List for software/dependencies for any guest OS when you want to start developin
 - Confluence Server (https://www.atlassian.com/de/software/confluence/download)
 - Yakuake Dropdown Terminal (https://apps.kde.org/en/yakuake)
 - Clam AV (https://www.clamav.net/downloads)
+```bash
+# scan full system
+sudo clamscan -r /
+```
 
 <br>
 

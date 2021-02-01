@@ -42,11 +42,20 @@ List for software/dependencies for any guest OS when you want to start developin
 sudo clamscan -r /
 ```
 
-<br>
+## Dependencies
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+
+
+<br><br>
 
 ## Fedora
+- ZSH (https://kifarunix.com/install-and-setup-zsh-and-oh-my-zsh-on-fedora-32/)
+
 ```bash
-sudo dnf install make automake gcc gcc-c++ kernel-devel
+sudo dnf install make automake gcc gcc-c++ kernel-devel zsh
 ```
 
 ## Guides

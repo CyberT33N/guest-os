@@ -73,6 +73,18 @@ plugins=(
 ZSH_THEME="agnoster"
 ```
 
+<br>~/.bashrc
+```
+# disable user in terminal
+PS1="\w \$ "
+```
+
+
+
+
+
+
+
 
 
 <br><br>

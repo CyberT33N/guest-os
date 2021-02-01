@@ -439,6 +439,11 @@ ijavascript
 
 <br><br>
 
+## disable auto indent
+- In  File | Settings | Editor | General | Smart Keys you need to disable Smart indent (this should help for cases when "CLion still sometimes inserts tabs when i dont press TAB key") and set Reformat on paste to None (this should help for cases when "CLion deletes tabs from lines that i paste"):
+
+
+<br><br>
 
 
 ## Create Desktop Shortcut

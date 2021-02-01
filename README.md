@@ -42,9 +42,32 @@ List for software/dependencies for any guest OS when you want to start developin
 sudo clamscan -r /
 ```
 
-## Dependencies
+<br><br>
+- ZSH
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-history-substring-search.git ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search
+```
+
+<br>~/.zshrc
+```
+plugins=(
+  git 
+  zsh-syntax-highlighting
+  zsh-history-substring-search
+  common-aliases
+  history
+  extract
+  dirhistory
+  sudo
+  wd  
+  fedora
+  dnf 
+  z
+)
+ZSH_THEME="agnoster"
 ```
 
 

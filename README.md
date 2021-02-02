@@ -445,8 +445,22 @@ ijavascript
 
 <br><br>
 
-## Change Fonts
+## Fonts
+
+<br><br>
+
+#### Change Fonts
 - File > Settings > Editor > Font
+
+<br><br>
+
+#### Bold Fonts
+- File > Settings > Color Scheme > Text > Default Text > Bold
+
+
+
+
+
 
 <br><br>
 

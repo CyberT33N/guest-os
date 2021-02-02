@@ -434,6 +434,17 @@ ijavascript
 # Webstorm (https://www.jetbrains.com/de-de/webstorm/)
 
 
+## Add Unit Tests Sidebar
+- Edit Configuration (top right)
+<br> -> Choose Mocha package
+<br> -> User Interface: **bdd**
+<br> -> Extra Mocha options: **--recursive --exit --timeout 30000**
+<br> -> File Patterns: **./test/*.test.js**
+
+
+
+<br><br>
+
 ## Change Fonts
 - File > Settings > Editor > Font
 

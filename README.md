@@ -434,6 +434,11 @@ ijavascript
 # Webstorm (https://www.jetbrains.com/de-de/webstorm/)
 
 
+## Enable Zoom with CTRL + Mouse Wheel
+- In the Settings/Preferences dialog Ctrl+Alt+S, select Editor | General. Make sure that the setting Change font size (Zoom) with Ctrl+MouseWheel is enabled.
+
+<br><br>
+
 ## Add Unit Tests Sidebar
 - Edit Configuration (top right)
 <br> -> Choose Mocha package

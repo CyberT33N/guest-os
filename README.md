@@ -448,7 +448,24 @@ ijavascript
 
 
 
-<br><br>
+
+
+
+<br><br> <br><br>
+
+## Enable auto render of JSDoc
+- open the Settings/Preferences dialog Ctrl+Alt+S, go to Editor | General | Appearance, and select the Render documentation comments checkbox.
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br>
 
 ## Fonts
 

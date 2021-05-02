@@ -43,7 +43,16 @@ sudo clamscan -r /
 ```
 
 <br><br>
+- Kolourpaint
+```bash
+sudo snap install kolourpaint
+```
+
+
+<br><br>
+
 ## ZSH
+
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions

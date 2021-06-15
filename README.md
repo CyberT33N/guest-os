@@ -115,7 +115,7 @@ sudo dnf install make automake gcc gcc-c++ kernel-devel zsh
 
 <br><br>
 
-## Ubuntu
+## Ubuntu/Kubuntu
 - Live Wallpaper (https://github.com/cheesecakeufo/komorebi)
 - GUFW (http://gufw.org/)
 
@@ -123,6 +123,9 @@ sudo dnf install make automake gcc gcc-c++ kernel-devel zsh
 
 #### dependencies
 ```bash
+sudo apt update
+sudo apt install snapd
+sudo snap install snap-store
 ```
 
 

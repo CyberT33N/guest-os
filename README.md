@@ -54,6 +54,7 @@ sudo snap install kolourpaint
 ## ZSH
 
 ```bash
+sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
@@ -144,6 +145,13 @@ ifconfig -a
 sudo ufw allow out on <interface> to 1.1.1.1 proto udp port 53 comment 'allow DNS on <interface>'
 sudo ufw allow out on <interface> to any proto tcp port 80 comment 'allow HTTP on <interface>'
 sudo ufw allow out on <interface> to any proto tcp port 443 comment 'allow HTTPS on <interface>'
+
+# Nordvpn DNS
+sudo ufw allow out on nordlynx to 103.86.96.100 proto udp port 53 comment 'allow DNS on <interface>'
+sudo ufw allow out on nordlynx to 103.86.99.100 proto udp port 53 comment 'allow DNS on <interface>'
+sudo ufw allow out on <ethernetnamehere> to 103.86.99.100 proto udp port 53 comment 'allow DNS on <interface>'
+sudo ufw allow out on <ethernetnamehere> to 103.86.96.100 proto udp port 53 comment 'allow DNS on <interface>'
+
 # show rules
 sudo ufw status numbered
 ```

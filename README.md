@@ -457,6 +457,14 @@ ijavascript
 
 # Webstorm (https://www.jetbrains.com/de-de/webstorm/)
 
+## Plugins
+- Atom Material Icons
+- Tabnine
+- Pokemon Progress
+- Activate-power-mode (https://plugins.jetbrains.com/plugin/14000-activate-power-mode-x)
+- Rainbow Brackets
+
+<br><br>
 
 ## Enable Zoom with CTRL + Mouse Wheel
 - In the Settings/Preferences dialog Ctrl+Alt+S, select Editor | General. Make sure that the setting Change font size (Zoom) with Ctrl+MouseWheel is enabled.

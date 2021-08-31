@@ -462,6 +462,7 @@ ijavascript
 - Tabnine
 - Pokemon Progress
 - Activate-power-mode (https://plugins.jetbrains.com/plugin/14000-activate-power-mode-x)
+- Power Mode II
 - Rainbow Brackets
 
 <br><br>

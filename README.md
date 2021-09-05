@@ -129,6 +129,14 @@ sudo apt install snapd
 sudo snap install snap-store
 ```
 
+<br><br>
+
+#### Pulse Effects
+```bash
+sudo apt install pulseffects
+```
+
+
 
 #### Security
 ```bash

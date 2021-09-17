@@ -472,6 +472,8 @@ ijavascript
 - Activate-power-mode (https://plugins.jetbrains.com/plugin/14000-activate-power-mode-x)
 - Power Mode II
 - Rainbow Brackets
+- Sexy Editor (https://plugins.jetbrains.com/plugin/1833-sexy-editor)
+- Anime Memes (https://plugins.jetbrains.com/plugin/15865-anime-memes)
 
 <br><br>
 

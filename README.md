@@ -520,7 +520,7 @@ ijavascript
 <br><br>
 
 #### Bold Fonts
-- File > Settings > Color Scheme > Text > Default Text > Bold
+- File > Settings > Color Scheme > General > Text > Default Text > Bold
 
 
 

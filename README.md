@@ -522,8 +522,7 @@ ijavascript
 
 #### Bold Fonts
 - File > Settings > Color Scheme > General > Text > Default Text > Bold
-
-
+- You can to File > Settings > Color Scheme > Javascript to change as example function params to bold too
 
 
 

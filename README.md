@@ -468,6 +468,7 @@ ijavascript
 ## Plugins
 - Atom Material Icons
 - Tabnine
+- CodeGlance (Minimap)
 - Pokemon Progress
 - Activate-power-mode (https://plugins.jetbrains.com/plugin/14000-activate-power-mode-x)
 - Power Mode II

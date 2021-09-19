@@ -52,7 +52,9 @@ sudo snap install kolourpaint
 <br><br>
 - Printer drivers
 ```bash
-sudo snap install printer-driver-all
+# xsane is for scanning
+# printer-driver-all install all printer drivers
+sudo apt install printer-driver-all xsane
 ```
 
 <br><br>

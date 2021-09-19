@@ -50,6 +50,12 @@ sudo snap install kolourpaint
 
 
 <br><br>
+- Printer drivers
+```bash
+sudo snap install printer-driver-all
+```
+
+<br><br>
 
 ## ZSH
 

@@ -483,6 +483,7 @@ ijavascript
 - Rainbow Brackets
 - Sexy Editor (https://plugins.jetbrains.com/plugin/1833-sexy-editor)
 - Anime Memes (https://plugins.jetbrains.com/plugin/15865-anime-memes)
+- Rainbow Fart (https://plugins.jetbrains.com/plugin/14543-rainbow-fart)
 
 <br><br>
 

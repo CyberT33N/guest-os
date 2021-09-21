@@ -485,6 +485,7 @@ ijavascript
 - Anime Memes (https://plugins.jetbrains.com/plugin/15865-anime-memes)
 - Rainbow Fart (https://plugins.jetbrains.com/plugin/14543-rainbow-fart)
 - Fancy music (https://plugins.jetbrains.com/plugin/13231-fancy-music)
+- Key Promoter X (https://plugins.jetbrains.com/plugin/9792-key-promoter-x)
 
 <br><br>
 

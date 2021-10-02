@@ -474,6 +474,7 @@ ijavascript
 # Webstorm (https://www.jetbrains.com/de-de/webstorm/)
 
 ## Plugins
+- Monokai Pro Theme(https://plugins.jetbrains.com/plugin/13643-monokai-pro-theme)
 - Atom Material Icons
 - Tabnine
 - CodeGlance (Minimap)

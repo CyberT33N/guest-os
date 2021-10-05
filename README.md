@@ -130,6 +130,13 @@ sudo dnf install make automake gcc gcc-c++ kernel-devel zsh
 
 <br><br>
 
+#### disable klipper (clipboard history)
+- Of course you can disable it in the systray settings. (systray settings are the taskbar settings)
+- Just untick the checkbox in "General"->"Extra Items".
+
+
+<br><br>
+
 #### dependencies
 ```bash
 sudo apt update

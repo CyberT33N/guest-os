@@ -42,6 +42,17 @@ List for software/dependencies for any guest OS when you want to start developin
 sudo clamscan -r /
 ```
 
+
+
+<br><br>
+- Postman
+```bash
+sudo snap install postman
+```
+
+
+
+
 <br><br>
 - Kolourpaint
 ```bash

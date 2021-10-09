@@ -8,6 +8,24 @@ List for software/dependencies for any guest OS when you want to start developin
 - KeePassXC - Cross-Platform Password Manager (https://keepassxc.org/download/)
 - Gitlab Docker (https://hub.docker.com/r/gitlab/gitlab-ce)
 
+<br><br>
+
+## Chromium
+
+#### Extension
+- Script Safe (https://chrome.google.com/webstore/detail/scriptsafe/oiigbmnaadbkfbmpbfijlflahbdbdgdf)
+- Webrtc Anti Leak Prevent (https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml)
+- Nimbus (https://chrome.google.com/webstore/detail/nimbus-screenshot-screen/bpconcjcammlapcogcnnelfmaeghhagj/related)
+
+
+
+
+
+
+
+
+
+
 
 <br><br>
 

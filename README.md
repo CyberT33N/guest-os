@@ -598,7 +598,9 @@ ijavascript
 <br><br>
 
 ## Sublime Syntax Color Scheme
+- https://gist.github.com/CyberT33N/ef2ae6684f29734ba2263d07fe1548e7 **FINAL almost like atom v2**
 - https://gist.github.com/CyberT33N/a3905f0b9da8cebb42d03998d79b6a5f **FINAL almost like atom**
+- 
 - https://plugins.jetbrains.com/plugin/12773-onedarkmonokai
 - https://github.com/darekkay/config-files/blob/master/intellij-idea/config/colors/dk-monokai.icls
 

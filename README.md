@@ -612,6 +612,12 @@ Then search for your plugin and press Enter
 
 <br><br>
 
+## Increae search limit results from 100 to xxxx
+- In 2021.2 the limit is configurable in Settings | Advanced Settings | Maximum number of results to show in Find In Path/Show Usages preview.
+
+
+<br><br>
+
 ## Enable Zoom with CTRL + Mouse Wheel
 - In the Settings/Preferences dialog Ctrl+Alt+S, select Editor | General. Make sure that the setting Change font size (Zoom) with Ctrl+MouseWheel is enabled.
 

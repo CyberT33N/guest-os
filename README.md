@@ -228,11 +228,13 @@ https://firejail.wordpress.com/features-3/man-firejail/
 <br><br>
 
 
-#### KDE
+#### KDE (Ubuntu)
 ```bash
 sudo apt install kde-full
 
 # later choose SDDM display manager
+
+# Then reboot and in the login screen area choose PLASMA X11. For me it was like this on Ubuntu 22.04
 ```
 
 <br><br>

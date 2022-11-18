@@ -67,6 +67,15 @@ sudo clamscan -r /
 
 
 
+- Docker Desktop
+  - https://docs.docker.com/desktop/install/ubuntu/
+```shell
+sudo dpkg -i /home/t33n/Desktop/docker-desktop.deb 
+# If some dependencies can not be installed run
+# sudo apt-get -f install   
+```
+
+
 <br><br>
 - Postman
 ```bash

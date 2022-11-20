@@ -169,9 +169,10 @@ sudo dnf install make automake gcc gcc-c++ kernel-devel zsh
 
 ## Ubuntu/Kubuntu
 - Live Wallpaper (https://github.com/cheesecakeufo/komorebi)
+  - https://pixabay.com/videos/motion-background-live-wallpaper-28277/
 - GUFW (http://gufw.org/)
 
-<br><br>
+
 
 #### disable klipper (clipboard history)
 - Of course you can disable it in the systray settings. (systray settings are the taskbar settings)
@@ -239,6 +240,46 @@ https://firejail.wordpress.com/features-3/man-firejail/
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+______________________________________________________________
+<br><br>
 <br><br>
 
 
@@ -251,6 +292,19 @@ sudo apt install kde-full
 # Then reboot and in the login screen area choose PLASMA X11. For me it was like this on Ubuntu 22.04
 ```
 
+#### KDE Themes
+- System Settings > Appearance > Get new global themes
+  - Daisy (https://store.kde.org/p/1597008)
+
+
+
+
+
+
+<br><br>
+<br><br>
+______________________________________________________________
+<br><br>
 <br><br>
 
 #### disable Baloo

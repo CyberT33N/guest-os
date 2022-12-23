@@ -407,7 +407,7 @@ chmod +x mousewheel.sh
 
 ## Install
 
-#### Ubuntu
+### Ubuntu
 ```bash
 sudo apt update
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
@@ -417,7 +417,13 @@ sudo apt update
 sudo apt install docker-ce
 ```
 
+<br><br><br><br>
 
+
+#### docker-compose
+```
+sudo apt install docker-compose
+```
 
 
 

@@ -183,6 +183,10 @@ sudo dnf install make automake gcc gcc-c++ kernel-devel zsh
 
 #### dependencies
 ```bash
+# To use commands like ifconfig
+sudo apt install net-tools
+
+## Should be installed already on kubuntu
 sudo apt update
 sudo apt install snapd
 sudo snap install snap-store

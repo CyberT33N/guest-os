@@ -55,6 +55,7 @@ List for software/dependencies for any guest OS when you want to start developin
 - Confluence Server (https://www.atlassian.com/de/software/confluence/download)
 
 - Yakuake Dropdown Terminal (https://apps.kde.org/en/yakuake)
+  - Try first to install it via apps.kde link because there are sometimes problems with the snap version and it wont start
 ```shell
 sudo snap install yakuake --candidate
 ```

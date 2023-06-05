@@ -67,16 +67,6 @@ sudo clamscan -r /
 ```
 
 
-
-- Docker Desktop
-  - https://docs.docker.com/desktop/install/ubuntu/
-```shell
-sudo dpkg -i /home/t33n/Desktop/docker-desktop.deb 
-# If some dependencies can not be installed run
-# sudo apt-get -f install   
-```
-
-
 <br><br>
 - Postman
 ```bash
@@ -452,7 +442,16 @@ sudo apt install docker-compose
 
 
 
+#### Docker Desktop
+- https://docs.docker.com/desktop/install/ubuntu/
 
+1. Set up Docker’s package repository.
+2. Download latest DEB package.
+3.Install the package with apt as follows:
+```shell
+sudo apt-get update
+sudo apt-get install ./docker-desktop-<version>-<arch>.deb
+```
 
 
 

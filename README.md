@@ -287,6 +287,12 @@ sudo apt install kde-full
 # Then reboot and in the login screen area choose PLASMA X11. For me it was like this on Ubuntu 22.04
 ```
 
+
+
+<br><br>
+<br><br>
+
+
 #### KDE Themes
 - System Settings > Appearance > Get new global themes
   - Daisy (https://store.kde.org/p/1597008)

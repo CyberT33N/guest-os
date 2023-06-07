@@ -461,6 +461,22 @@ sudo apt-get install ./docker-desktop-<version>-<arch>.deb
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
  _____________________________________________________
  _____________________________________________________
@@ -468,20 +484,28 @@ sudo apt-get install ./docker-desktop-<version>-<arch>.deb
 
 # Git
 
+<br><br>
+
 ## Enable some colorization of Git output.
 ```bash
 git config --global color.ui auto
 ```
 
+<br><br>
 
 ## SSH
 - https://github.com/CyberT33N/git-cheat-sheet/blob/main/README.md#ssh
 
+<br><br>
 
+## Pushing to multiple git repos
+- https://github.com/CyberT33N/git-cheat-sheet/blob/main/README.md#pushing-to-multiple-git-repos
+
+<br><br>
 
 ## GUI
-GitKraken (PREMIUM - Cross Platform): https://www.gitkraken.com/download
-<br>Sourcetree (FREE - Windows & MAC): https://www.sourcetreeapp.com/
+- GitKraken (PREMIUM - Cross Platform): https://www.gitkraken.com/download
+- Sourcetree (FREE - Windows & MAC): https://www.sourcetreeapp.com/
 
 
 

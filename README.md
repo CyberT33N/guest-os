@@ -230,6 +230,16 @@ sudo aa-enforce /etc/apparmor.d/*
 sudo apt install firejail
 ```
 
+<br><br>
+
+#### Recommended
+- It is recommend to download srwiron .deb file and install it with sudo dpkg -i xxx.deb
+  -  Then create chrome.profile file as related to my firejail cheat sheet from above
+    - Use this Browser als sandboxed on for untrusted stuff.
+      - Install firefox via snap install firefox and use it as your main browser without resitrictions
+
+<br><br>
+
 #### firejail all paramater
 https://firejail.wordpress.com/features-3/man-firejail/
 

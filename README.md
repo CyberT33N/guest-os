@@ -108,6 +108,7 @@ cd fonts
 ```
 
 <br>~/.zshrc
+- Make sure to remove the existing ZSH_THEME
 ```
 plugins=(
   git 

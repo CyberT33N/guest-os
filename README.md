@@ -108,7 +108,8 @@ cd fonts
 ```
 
 <br>~/.zshrc
-- Make sure to remove the existing ZSH_THEME
+- Change at the top ZSH_THEME="agnoster"
+- Add this to the bottom:
 ```
 plugins=(
   git 
@@ -123,7 +124,6 @@ plugins=(
   dnf 
   z
 )
-ZSH_THEME="agnoster"
 ```
 
 <br>~/.bashrc

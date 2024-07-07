@@ -1500,42 +1500,7 @@ ___________________________________
 <br><br>
 
 #### Sandbox
-- https://null-byte.wonderhowto.com/how-to/locking-down-linux-using-ubuntu-as-your-primary-os-part-3-application-hardening-sandboxing-0185710/
-- https://www.youtube.com/watch?v=PQo9PEdVuIw
 - https://github.com/CyberT33N/firejail-cheat-sheet
-```bash
-sudo apt-get install apparmor-profiles apparmor-utils
-sudo aa-enforce /etc/apparmor.d/*
-sudo apt install firejail
-```
-
-<br><br>
-
-#### Recommended
-- It is recommend to download srwiron .deb file and install it with sudo dpkg -i xxx.deb
-  -  Then create chrome.profile file as related to my firejail cheat sheet from above. Create shortcut as related to this guide (https://github.com/CyberT33N/linux-cheat-sheet/blob/main/README.md#create-custom-shortcut-with-termainl-command):
-    ```
-    touch ~/Desktop/iron.desktop
-    
-    sudo nano ~/Desktop/iron.desktop
-    
-    #!/usr/bin/env xdg-open
-    [Desktop Entry]
-    Name=Iron [Sandboxed]
-    Exec=/bin/bash -c "firejail /usr/share/iron/chrome"
-    Type=Application
-    Terminal=true
-    Icon=/home/t33n/Downloads/chromium-logo.png
-    ```
-    - Use this Browser als sandboxed on for untrusted stuff.
-      - Install firefox via snap install firefox and use it as your main browser without resitrictions
-
-<br><br>
-
-#### firejail all paramater
-https://firejail.wordpress.com/features-3/man-firejail/
-
-
 
 
 

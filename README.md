@@ -1522,11 +1522,12 @@ sudo apt install firejail
     #!/usr/bin/env xdg-open
     [Desktop Entry]
     Name=Iron [Sandboxed]
-    Exec=/bin/bash -c "firejail /usr/share/iron/chrome"
+    Exec=/bin/bash -c "firejail /usr/share/iron/chrome --no-sandbox"
     Type=Application
     Terminal=true
     Icon=/home/t33n/Downloads/chromium-logo.png
     ```
+    - If chrome is not starting the you must disable sandbox with --no-sandbox
     - Use this Browser als sandboxed on for untrusted stuff.
       - Install firefox via snap install firefox and use it as your main browser without resitrictions
 

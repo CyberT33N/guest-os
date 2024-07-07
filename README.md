@@ -1930,17 +1930,6 @@ npm -v
 printf "\nWe finished the .sh file :) - Created by Dennis Demand( https://github.com/CyberT33N )\n"
 ```
 
-<br />
-<br />
-
-## Dependencies
-```bash
-sudo apt install jupyter-core jupyter-notebook jupyter-client jupyter-console
-npm i -g typescript nodemon ijavascript node-gyp
-ijavascript
-```
-
-
 
 
 

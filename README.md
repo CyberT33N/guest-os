@@ -1407,6 +1407,8 @@ sudo ufw default deny outgoing
 sudo ufw allow out on nordlynx to any port 80,443,53,8080 proto tcp
 sudo ufw allow out on nordlynx to any port 80,443,53,8080 proto udp
 
+# git ssh
+sudo ufw allow out on nordlynx to any port 22 proto tcp
 
 # ---------------------------
 

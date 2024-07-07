@@ -1172,6 +1172,9 @@ detect_folders = []
 # Fonts
 - https://www.nerdfonts.com/font-downloads
 
+- https://github.com/tonsky/FiraCode
+- https://pcaro.es/d/full-hermit-2.0.tar.gz
+
 
 <br><br>
 <br><br>
@@ -1789,20 +1792,6 @@ git config --global color.ui auto
 
 
 
-
-
-
-
-
-<br><br>
- _____________________________________________________
- _____________________________________________________
-
-<br><br>
-
-# Fonts
-- https://github.com/tonsky/FiraCode
-- https://pcaro.es/d/full-hermit-2.0.tar.gz
 
 
 

@@ -1329,67 +1329,173 @@ sudo dnf install make automake gcc gcc-c++ kernel-devel zsh
 
 
 
+
+<br><br>
+<br><br>
+___________________________________
+___________________________________
+<br><br>
 <br><br>
 
-## Ubuntu/Kubuntu
-- Live Wallpaper (https://github.com/cheesecakeufo/komorebi)
-  - https://pixabay.com/videos/motion-background-live-wallpaper-28277/
-- GUFW (http://gufw.org/)
 
 
 
-#### disable klipper (clipboard history)
+# disable klipper (clipboard history)
 - Of course you can disable it in the systray settings. (systray settings are the taskbar settings)
 - Just untick the checkbox in "General"->"Extra Items".
 
 
-<br><br>
 
-#### dependencies
-```bash
-# To use commands like ifconfig
-sudo apt install net-tools
 
-## Should be installed already on kubuntu
-sudo apt update
-sudo apt install snapd
-sudo snap install snap-store
-```
+
 
 <br><br>
+<br><br>
+___________________________________
+___________________________________
+<br><br>
+<br><br>
 
-#### Pulse Effects
+
+
+# Pulse Effects
 ```bash
 sudo apt install pulseeffects
 ```
 
 
 
-#### Security
-```bash
-sudo apt purge avahi-daemon
 
+
+<br><br>
+<br><br>
+___________________________________
+___________________________________
+<br><br>
+<br><br>
+
+# Firewall
+
+The following code will not allow traffic from your own device e.g. WLAN/LAN to any other Port than DNS (53), local (192.168.0.0/16), NORDVPN(51820) & OPENVPN (1197). 
+
+If connected to VPN we will allow only http, https & DNS:
+```shell
+sudo ufw reset
 sudo ufw enable
-sudo ufw default deny incoming
+
+# ---------------------------
+
+# =====================
+# ====== GLOBAL =======
+# =====================
+
+# Deny all
 sudo ufw default deny forward
+sudo ufw default deny incoming
 sudo ufw default deny outgoing
 
-# find your internet device
-ifconfig -a
-# allow internet for your device
-sudo ufw allow out on <interface> to 1.1.1.1 proto udp port 53 comment 'allow DNS on <interface>'
-sudo ufw allow out on <interface> to any proto tcp port 80 comment 'allow HTTP on <interface>'
-sudo ufw allow out on <interface> to any proto tcp port 443 comment 'allow HTTPS on <interface>'
+# ---------------------------
 
-# Nordvpn DNS
-sudo ufw allow out on nordlynx to 103.86.96.100 proto udp port 53 comment 'allow DNS on <interface>'
-sudo ufw allow out on nordlynx to 103.86.99.100 proto udp port 53 comment 'allow DNS on <interface>'
-sudo ufw allow out on <ethernetnamehere> to 103.86.99.100 proto udp port 53 comment 'allow DNS on <interface>'
-sudo ufw allow out on <ethernetnamehere> to 103.86.96.100 proto udp port 53 comment 'allow DNS on <interface>'
+# =====================
+# ====== VPN ==========
+# =====================
 
-# show rules
-sudo ufw status numbered
+# If you want to allow any outgoing port
+# sudo ufw allow out on nordlynx
+
+# Allow only http, https & DNS
+sudo ufw allow out on nordlynx to any port 80,443,53,8080 proto tcp
+sudo ufw allow out on nordlynx to any port 80,443,53,8080 proto udp
+
+
+# ---------------------------
+
+# =====================
+# ====== WLAN =========
+# =====================
+
+# Allow outgoing traffic from your device to DNS (53), NORDVPN(51820) & OPENVPN (1197)
+sudo ufw allow out on wlp0s20f3 to any port 53,51820,1197 proto udp
+
+# Allow NTP
+# sudo ufw allow out on wlp0s20f3 to any port 123 proto udp comment 'allow NTP'
+
+# Allow local networks (optional)
+sudo ufw allow out on wlp0s20f3 to 192.168.0.0/16 comment 'allow local network'
+
+# ---------------------------
+
+sudo ufw status verbose
+sudo ufw enable
 ```
+- If it is not working and you can not connect to your vpn then try check_
+  ```shell
+  netstat -u
+  netstat -t
+
+  ```
+
+
+If needed this code is a basic example for only enable http, https & DNS to your WLAN/LAN:
+```shell
+# Reset all Rules
+sudo ufw reset
+
+# ---------------------
+
+# Enable Firewall
+sudo ufw enable
+
+# ---------------------
+
+# deny all
+sudo ufw default deny forward
+sudo ufw default deny outgoing
+sudo ufw default deny incoming
+
+# ---------------------
+
+# thunderbird
+# sudo ufw allow 993
+
+# thunderbird gmail send
+# sudo ufw allow out 465
+
+# thunderbird hotmail send
+# sudo ufw allow out 587
+
+# thunderbird
+# sudo ufw allow out 993
+
+# ---------------------
+
+# qbittorrent
+# sudo ufw allow 6969
+# sudo ufw allow out 6969
+
+# ---------------------
+
+# dns
+sudo ufw allow out 53
+
+# ---------------------
+
+# https & https
+sudo ufw allow out http
+sudo ufw allow out https
+```
+
+
+
+
+
+
+<br><br>
+<br><br>
+___________________________________
+___________________________________
+<br><br>
+<br><br>
 
 <br><br>
 

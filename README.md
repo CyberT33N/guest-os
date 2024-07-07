@@ -1762,6 +1762,9 @@ sudo apt-get install ./docker-desktop-<version>-<arch>.deb
 
 # Git
 
+## git-tools
+- https://github.com/T-vK/git-tools
+
 <br><br>
 
 ## Enable some colorization of Git output.
@@ -1784,6 +1787,41 @@ git config --global color.ui auto
 ## GUI
 - GitKraken (PREMIUM - Cross Platform): https://www.gitkraken.com/download
 - Sourcetree (FREE - Windows & MAC): https://www.sourcetreeapp.com/
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

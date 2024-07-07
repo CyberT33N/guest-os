@@ -140,9 +140,20 @@ PS1="\w \$ "
 
 
 
+<br><br>
+<br><br>
+___________________________________
+___________________________________
+<br><br>
+<br><br>
 
+# jdownloader
+https://jdownloader.org/download/index
 
-
+jdownloader needs java
+```shell
+sudo apt install default-jdk
+```
 
 
 

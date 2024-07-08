@@ -2,6 +2,16 @@
 List for software/dependencies for any guest OS when you want to start developing.. As example for companies..
 
 
+
+
+
+
+
+
+
+
+
+
 <br><br>
 
 # Cross Platform
@@ -28,6 +38,10 @@ List for software/dependencies for any guest OS when you want to start developin
 
 
 <br><br>
+<br><br>
+___________________________________________
+<br><br>
+<br><br>
 
 # Windows
 - Resize Taskbar (https://www.youtube.com/watch?v=ZdXxNOdq4W0)
@@ -49,6 +63,12 @@ List for software/dependencies for any guest OS when you want to start developin
 
 
 
+
+
+<br><br>
+<br><br>
+___________________________________________
+<br><br>
 <br><br>
 
 # Linux
@@ -157,6 +177,11 @@ sudo apt install default-jdk
 
 
 
+
+
+
+
+
 <br><br>
 <br><br>
 ___________________________________
@@ -210,6 +235,23 @@ sudo modprobe i2c-nct6775
 
 - Simple > Fill
 - Simple > Motion point
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br><br>
@@ -280,6 +322,11 @@ ___________________________________
 
 
 
+
+
+
+
+
 <br><br>
 <br><br>
 ___________________________________
@@ -305,6 +352,25 @@ tar -cf vmnet.tar vmnet-only
 sudo cp -v vmmon.tar vmnet.tar /usr/lib/vmware/modules/source/
 sudo vmware-modconfig --console --install-all
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br><br>
@@ -1176,9 +1242,26 @@ detect_folders = []
 ```
 
 
-<br><br>
-<br><br>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+___________________________________________
+<br><br>
+<br><br>
 
 # Fonts
 - https://www.nerdfonts.com/font-downloads
@@ -1187,6 +1270,12 @@ detect_folders = []
 - https://pcaro.es/d/full-hermit-2.0.tar.gz
 
 
+
+
+
+<br><br>
+<br><br>
+___________________________________________
 <br><br>
 <br><br>
 
@@ -1195,11 +1284,138 @@ detect_folders = []
 sudo apt install neofetch
 ```
 
-<br><br>
-<br><br>
 
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+___________________________________________
+<br><br>
+<br><br>
 
 # KDE
+
+
+
+
+
+
+# 🐬 Dolphin Einstellungen
+
+## Schriftart ändern
+- Ändere die Schriftart auf "Carda Dings Da"
+
+# 🎨 Konsole Theme
+- [Download Link](https://store.kde.org/p/1329371)
+
+# 🛠 Widgets
+
+## 💬 ChatGPT
+- [Download Link](https://store.kde.org/p/1977771)
+
+## 🌐 NordVPN
+- [Download Link](https://store.kde.org/p/1689651)
+
+## 🎵 Audio Visualizer
+
+### Panon
+- [GitHub Repository](https://github.com/rbn42/panon)
+
+```shell
+sudo apt-get install qml-module-qt-websockets python3-docopt python3-numpy python3-pyaudio python3-cffi python3-websockets qt5-websockets python3-docopt python3-numpy python3-pyaudio python3-cffi python3-websockets pipewire-pulse pipewire-alsa pipewire-jack pipewire
+
+sudo pip install -U websockets
+```
+
+### Installation via KDE Store
+1. Öffne den “Add Widgets” Dialog auf deinem Desktop
+2. Gehe zu “Get New Widgets” am unteren Rand
+3. Klicke auf “Download New Plasma Widgets”
+4. Suche nach “panon”
+5. Klicke auf “Install”
+
+### Widget Einstellungen
+- Füge das Widget hinzu und gehe zu den Einstellungen, dort kannst du neue Effekte herunterladen
+- Wähle “advanced circular” und nutze die folgenden Einstellungen:
+
+```
+Number of units: 50
+Unit fill: 60
+Inner radius: 0.4
+
+Enable fit in low and high
+
+Drift factor: 0.1
+
+Divide circle into n arc: 2
+
+p values can be all 1
+
+Enable proportional scaling
+
+Enable update UV every frame
+```
+
+### Back-End Tab
+- Verwende PortAudio und Frequenzbereich 0 bis 600 Hz
+
+### Farb Tab
+- Hue von: 50
+- Hue bis: 50
+- Sättigung: 100
+- Helligkeit: 90
+
+### Widget Bearbeiten
+- Rechtsklick auf das Widget und unter "Widget bearbeiten" den Hintergrund deaktivieren
+
+### Effekt "rbn" herunterladen
+- Lade den Effekt herunter und platziere ihn über der Taskleiste im Bearbeitungsmodus
+- Bei visuellen Effekten > Balkenbreite nutze 5
+
+### Farben Tab
+- Hue von: 50
+- Hue bis: 50
+- Sättigung: 100
+- Helligkeit: 90
+
+## ⏰ Clock
+- [Download Link](https://store.kde.org/p/1666554)
+
+## 🐾 Animated Pets
+- [Download Link](https://store.kde.org/p/1349326)
+
+## ⚽ Bouncing Ball
+- [Download Link](https://store.kde.org/p/1172489)
+- Einstellungen:
+  - Schwerkraft: 1.50
+  - Reibung: 0.03
+  - Rückprall: 0.8
+  - Tick Länge: 20ms
+
+# ⚙️ Einstellungen
+
+## Erscheinungsbild
+- Gehe zu Einstellungen > Erscheinungsbild > Desktop Effekte > Neue holen
+  - Geometry Change für Plasma 5
+  - Fold Popups
+  - Lightly Shaders
+- Aktiviere alle in den Einstellungen
+
+# 🖥 KWin Scripting
+- Du kannst KWin Scripts unter Einstellungen > Fensterverwaltung > KWin Scripts hinzufügen
+  - Suche nach:
+    - Karousel
+    - Windows Gaps
+    - No Border Firefox
+    - Tiling
 
 
 ## icons

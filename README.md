@@ -1201,6 +1201,53 @@ sudo apt install neofetch
 
 # KDE
 
+
+## icons
+- https://store.kde.org/p/2112373
+
+# splash screen
+- https://store.kde.org/p/1871282
+- https://store.kde.org/p/1427916
+
+# boot splash screen
+- https://store.kde.org/p/1635081
+
+# font
+- caskaydiamono nerd font
+- for window title hurmit nerd font bold
+
+# cursor
+- https://store.kde.org/p/1457141
+
+# GTK3/4 Themes
+- https://www.gnome-look.org/p/1214931
+
+
+# window decoration
+- https://store.kde.org/p/1172409
+- https://store.kde.org/p/1356759 **hot**
+
+
+
+
+# color scheme
+- https://store.kde.org/p/1965725
+
+
+
+# color theme
+
+## yaru-colors
+- https://snapcraft.io/yaru-colors
+```shell
+snap install yaru-colors
+for i in $(snap connections | grep gtk-common-themes:gtk-3-themes | awk '{print $2}'); do sudo snap connect $i yaru-colors:gtk-3-themes; done && for i in $(snap connections | grep gtk-common-themes:gtk-2-themes | awk '{print $2}'); do sudo snap connect $i yaru-colors:gtk-2-themes; done && for i in $(snap connections | grep gtk-common-themes:icon-themes | awk '{print $2}'); do sudo snap connect $i yaru-colors:icon-themes; done
+
+# then relogin
+```
+
+
+
 <br><br>
 
 ## Window Effects
@@ -1216,6 +1263,22 @@ tar -xf burn_my_windows_kwin4.tar.gz -C ~/.local/share/kwin/effects
 ```
 - Then select the desired effects in the system settings under "Desktop Effects".
 
+
+#### Rounded Corners
+https://github.com/matinlotfali/KDE-Rounded-Corners
+```shell
+sudo apt install git cmake g++ extra-cmake-modules kwin-dev libkf5configwidgets-dev 
+
+git clone https://github.com/matinlotfali/KDE-Rounded-Corners
+cd KDE-Rounded-Corners
+mkdir build
+cd build
+cmake ..
+cmake --build . -j
+sudo make install
+
+sh ../tools/load.sh
+```
 
 
 

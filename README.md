@@ -1315,6 +1315,8 @@ ___________________________________________
 
 # 🎨 Konsole Theme
 - [Download Link](https://store.kde.org/p/1329371)
+- You can add colorschemes here:
+  - ~/.local/share/konsole/ 
 
 # 🛠 Widgets
 

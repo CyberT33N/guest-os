@@ -1576,6 +1576,8 @@ systemctl --user restart plasma-plasmashell.service
 ```
 
 
+Also on every new screen or in general sometimes it may not working again then you may have to set again the steam folder again
+
 
 
 <br><br>

@@ -391,6 +391,7 @@ curl -sS https://starship.rs/install.sh | sh
 sudo gedit ~/.zshrc
 eval "$(starship init zsh)"
 
+# create config file if it it not already exists
 mkdir -p ~/.config && touch ~/.config/starship.toml
 ```
 
@@ -458,7 +459,7 @@ detect_folders = []
 
 [character]
 format = '$symbol '
-success_symbol = '[╰─>](bold cyan)'
+success_symbol = '[╰─>](bold #ffda10)'
 error_symbol = '[╰─](bold red)[×](bold red)'
 disabled = false
 
@@ -556,7 +557,7 @@ truncation_length = 3
 truncate_to_repo = true
 fish_style_pwd_dir_length = 0
 use_logical_path = true
-format = '[$path](bold #89dceb)[$read_only](bold yellow) '
+format = '[$path](bold #ffda10)[$read_only](bold yellow) '
 repo_root_format = '[$before_root_path]($style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) '
 style = 'bold underline'
 disabled = false
@@ -660,7 +661,7 @@ disabled = false
 [git_branch]
 format = 'on [$symbol$branch]($style)(:[$remote]($style)) '
 symbol = ' '
-style = 'bold purple'
+style = 'bold blue'
 truncation_length = 9223372036854775807
 truncation_symbol = '…'
 only_attached = false
@@ -697,19 +698,19 @@ format = '\([$state( $progress_current/$progress_total)]($style)\) '
 disabled = false
 
 [git_status]
-format = '([\[$all_status$ahead_behind\]]($style) )'
-style = 'bold yellow'
-stashed = '📦 - '
-ahead = '⇡|AHEAD| - '
-behind = '⇣|BEHIND| - '
-up_to_date = '✔️|UP-TO-DATE| - '
-diverged = '🔀|DIVERGED| - '
-conflicted = '🔧|CONFLICTED| - '
-deleted = '❌|DELETED| - '
-renamed = '🔄|RENAMED| - '
-modified = '🔨|╭⊰ 𝗘𝗗𝗜𝗧𝗘𝗗 ⊱╮| - '
-staged = '➕|STAGED| - '
-untracked = '📝|UNTRACKED| - '
+format = '([〘$all_status$ahead_behind〙]($style) )'
+style = 'bold white'
+stashed = '📦'
+ahead = '⇡'
+behind = '⇣'
+up_to_date = ''
+diverged = '🔀'
+conflicted = '🔧'
+deleted = '❌'
+renamed = '🔄'
+modified = '🔨'
+staged = '➕'
+untracked = '📝'
 ignore_submodules = false
 disabled = false
 
@@ -771,7 +772,7 @@ disabled = true
 [hostname]
 ssh_only = false
 trim_at = '.'
-format = '[$hostname](#94e2d5) in '
+format = '[$hostname](#4d4d4d) ⟶  '
 style = 'bold'
 disabled = false
 
@@ -1192,7 +1193,7 @@ utc_time_offset = 'local'
 time_range = '-'
 
 [username]
-format = '[╭─](#b4befe)[$user](#b4befe)[@](bold)'
+format = '[╭─](bold #ffda10)[$user](bold #ffda10)[@](bold #4d4d4d)'
 style_root = 'bold'
 style_user = 'bold'
 show_always = true

@@ -698,18 +698,18 @@ disabled = false
 
 [git_status]
 format = '([\[$all_status$ahead_behind\]]($style) )'
-style = 'red bold'
-stashed = '\$'
-ahead = '⇡'
-behind = '⇣'
-up_to_date = ''
-diverged = '⇕'
-conflicted = '='
-deleted = '✘'
-renamed = '»'
-modified = '!'
-staged = '+'
-untracked = '?'
+style = 'bold yellow'
+stashed = '📦 - '
+ahead = '⇡|AHEAD| - '
+behind = '⇣|BEHIND| - '
+up_to_date = '✔️|UP-TO-DATE| - '
+diverged = '🔀|DIVERGED| - '
+conflicted = '🔧|CONFLICTED| - '
+deleted = '❌|DELETED| - '
+renamed = '🔄|RENAMED| - '
+modified = '🔨|╭⊰ 𝗘𝗗𝗜𝗧𝗘𝗗 ⊱╮| - '
+staged = '➕|STAGED| - '
+untracked = '📝|UNTRACKED| - '
 ignore_submodules = false
 disabled = false
 

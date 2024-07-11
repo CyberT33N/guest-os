@@ -1305,19 +1305,82 @@ ___________________________________________
 # KDE
 
 
-
+<br><br>
+<br><br>
 
 
 
 # 🐬 Dolphin Einstellungen
+<br><br>
+<br><br>
 
 ## Schriftart ändern
 - Ändere die Schriftart auf "Carda Dings Da"
+
+
+<br><br>
+<br><br>
+
 
 # 🎨 Konsole Theme
 - [Download Link](https://store.kde.org/p/1329371)
 - You can add colorschemes here:
   - ~/.local/share/konsole/ 
+
+## Background
+- https://www.freepik.com/free-vector/game-live-stream-interface-elements_29836796.htm#fromView=search&page=1&position=10&uuid=8f26d9b1-ac06-4901-98ba-056287c1d4a1
+- https://www.freepik.com/free-vector/gradient-pack-twitch-panels_21077582.htm#fromView=search&page=1&position=33&uuid=8f26d9b1-ac06-4901-98ba-056287c1d4a1
+- https://www.freepik.com/free-vector/twitch-stream-panels-collection_9147552.htm#fromView=search&page=1&position=36&uuid=8f26d9b1-ac06-4901-98ba-056287c1d4a1
+
+
+Choose wallpaper and stretch
+
+Go to apperance > Miscellaneous and set
+- line spacing 5px
+- margin 60px
+
+Alternative you can set it aswell here:
+- ~/.local/share/konsole/yourProfile
+```
+[Appearance]
+ColorScheme=Amethyst
+Font=CaskaydiaCove Nerd Font,10,-1,5,50,0,0,0,0,0
+
+[General]
+Name=t33n
+Parent=FALLBACK/
+TerminalColumns=120
+TerminalMargin=40
+TerminalRows=48
+
+[Scrolling]
+HistorySize=100000
+```
+
+
+apperance > cursor
+- enable blinking
+
+apperance > color scheme & font
+- select font caskaydiacove nerd font
+
+
+scrolling > scrollback > change to 100000 for icnreased buffer
+scrolling > scrollbar position:hidden
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+<br><br>
+<br><br>
 
 # 🛠 Widgets
 

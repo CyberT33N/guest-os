@@ -179,6 +179,29 @@ sudo apt install default-jdk
 
 
 
+<br><br>
+<br><br>
+___________________________________
+___________________________________
+<br><br>
+<br><br>
+
+# youtube-dl
+
+```
+git clone https://github.com/ytdl-org/youtube-dl.git youtube-dl
+cd youtube-dl/
+make youtube-dl
+sudo cp youtube-dl /usr/local/bin/
+
+# If you get error /usr/bin/env: ‘python’: No such file or directory
+# Then install python. If you have python3 then create symlink
+sudo ln -s /usr/bin/python3 /usr/bin/python
+```
+- Usage:
+  ```
+  youtube-dl https://www.youtube.com/watch?v=Mjq7kbMM0Bg
+  ```
 
 
 

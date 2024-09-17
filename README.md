@@ -186,9 +186,20 @@ ___________________________________
 <br><br>
 <br><br>
 
-# youtube-dl
-
+# yt-dlp (recommended)
+```shell
+sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+sudo chmod a+rx /usr/local/bin/yt-dlp
+yt-dlp "https://www.youtube.com/watch?v=Mjq7kbMM0Bg" 
 ```
+
+<br><br>
+<br><br>
+
+
+# youtube-dl
+- If encountered 403 forbidden problems here and used instead yt-dlp
+```shell
 git clone https://github.com/ytdl-org/youtube-dl.git youtube-dl
 cd youtube-dl/
 make youtube-dl
@@ -202,6 +213,22 @@ sudo ln -s /usr/bin/python3 /usr/bin/python
   ```
   youtube-dl https://www.youtube.com/watch?v=Mjq7kbMM0Bg
   ```
+
+- If you get 403 forbidden error try:
+```
+
+
+sudo apt install python3.12-venv
+
+python3 -m venv YOUTUBEDL
+source YOUTUBEDL/bin/activate
+
+pip install youtube_dl
+
+python3 -m youtube_dl --user-agent "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.103 Mobile Safari/537.36" "https://www.youtube.com/watch?v=Mjq7kbMM0Bg" 
+
+deactivate
+```
 
 
 

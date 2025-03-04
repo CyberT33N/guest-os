@@ -49,11 +49,43 @@ ___________________________________________
 - Live Wallpaper (https://rocksdanister.github.io/lively/)
 - Confluence Server (https://www.atlassian.com/de/software/confluence/download)
 
+<br><br>
+
 ## Guides
 - How to create bootable DVD with Windows 10 only (https://www.youtube.com/watch?v=NkySPUcwNhw)
 
+<br><br>
+
 ## Errors/Bugs
 - DVD Drive not working in Windows 10 [3 SIMPLE METHODS] (https://www.youtube.com/watch?v=VbvSwsIlvxc)
+
+<br><br>
+
+## Package Manager
+- https://github.com/CyberT33N/chocolatey-cheat-sheet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

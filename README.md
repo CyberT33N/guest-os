@@ -2168,7 +2168,8 @@ git config --global color.ui auto
 # Node.js 
 
 ## Windows
-https://nodejs.org/dist/v15.0.1/node-v15.0.1-x64.msi
+- https://nodejs.org/dist/v15.0.1/node-v15.0.1-x64.msi
+- https://github.com/CyberT33N/nvm-cheat-sheet
 
 <br><br><br><br>
 
@@ -2180,70 +2181,7 @@ https://nodejs.org/dist/v15.0.1/node-v15.0.1.pkg
 ## Linux
 
 #### NVM (https://github.com/nvm-sh/nvm)
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
-
-# if nvm is not working try this
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-```
-- If you encounter error like nvm: install v18.16.0 failed! try:
-```
-sudo apt install build-essential
-```
-
-
-<br><br>
-
-#### Debian (Ubuntu, Mint, ..)
-```bash
-cd "$(dirname "$0")"
-pwd
-printf "\nWe will display now the current directory used:"
-echo "$(dirname "$0")"
-printf "\n\nWe will deinstall now everything with Node.js..\n"
-#-------------------------------------------------------------------------------
-sudo apt-get remove -y npm
-sudo apt-get remove -y nodejs-legacy
-sudo apt-get remove -y nodejs
-sudo rm /usr/bin/node
-sudo rm /usr/local/node
-sudo apt -y autoremove
-#-------------------------------------------------------------------------------
-printf "\n\nWe will download an install now Node.js 15.x\n"
-curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
-sudo apt-get install -y nodejs
-#-------------------------------------------------------------------------------
-printf "\n\nWe will display now the current installed version of node:\n"
-node -v
-printf "\n\nWe will display now the current installed version of npm:\n"
-npm -v
-#-------------------------------------------------------------------------------
-printf "\nWe finished the .sh file :) - Created by Dennis Demand( https://github.com/CyberT33N )\n"
-```
-
-#### RPM (Fedora, CentOS, ..)
-```bash
-cd "$(dirname "$0")"
-pwd
-printf "\nWe will display now the current directory used:"
-echo "$(dirname "$0")"
-printf "\n\nWe will deinstall now everything with Node.js..\n"
-#-------------------------------------------------------------------------------
-sudo yum -y remove nodejs
-#-------------------------------------------------------------------------------
-printf "\n\nWe will download an install now Node.js 15.x\n"
-curl --silent --location https://rpm.nodesource.com/setup_15.x | sudo bash -
-sudo yum -y install nodejs
-#-------------------------------------------------------------------------------
-printf "\n\nWe will display nowhttps://www.jetbrains.com/webstorm/guide/tips/soft-wraps/ the current installed version of node:\n"
-node -v
-printf "\n\nWe will display now the current installed version of npm:\n"
-npm -v
-#-------------------------------------------------------------------------------
-printf "\nWe finished the .sh file :) - Created by Dennis Demand( https://github.com/CyberT33N )\n"
-```
-
+- https://github.com/CyberT33N/nvm-cheat-sheet
 
 
 

@@ -65,7 +65,34 @@ ___________________________________________
 - https://github.com/CyberT33N/chocolatey-cheat-sheet
 
 
+<br><br>
 
+## Utils
+
+### Anti afk
+
+Method #1 - Autohot key
+```
+; Setzt einen Timer, der die Funktion MoveMouse alle 1000 Millisekunden (1 Sekunde) aufruft.
+SetTimer(MoveMouse, 1000)
+
+; Diese Funktion wird regelmäßig durch den Timer aufgerufen.
+MoveMouse() {
+    ; Prüft, ob der Computer für mehr als 150.000 Millisekunden (150 Sekunden = 2,5 Minuten) inaktiv war.
+    if (A_TimeIdle > 25000) {
+        ; Bewegt die Maus um 20 Pixel nach rechts und 30 Pixel nach unten mit einer Geschwindigkeit von 35.
+        ; Das "R" bedeutet, dass die Bewegung relativ zur aktuellen Mausposition erfolgt.
+        MouseMove(20, 30, 35, "R")
+        
+        ; Bewegt die Maus zurück um 20 Pixel nach links und 30 Pixel nach oben mit derselben Geschwindigkeit.
+        MouseMove(-20, -30, 35, "R")
+    }
+}
+
+; Beendet das Skript, wenn die Escape-Taste gedrückt wird.
+Esc::ExitApp
+
+```
 
 
 

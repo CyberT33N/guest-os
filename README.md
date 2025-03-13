@@ -71,6 +71,8 @@ ___________________________________________
 
 ### Anti afk
 
+<details><summary>Click to expand..</summary>
+
 Method #1 - Autohot key
 ```
 ; Setzt einen Timer, der die Funktion MoveMouse alle 1000 Millisekunden (1 Sekunde) aufruft.
@@ -94,10 +96,34 @@ Esc::ExitApp
 
 ```
 
+Es gibt mehrere Wege, dein AutoHotkey-Skript beim Start von Windows automatisch auszuführen:  
+
+### **Methode 1: Skript in den Autostart-Ordner legen** (einfachste Methode)  
+1. **Drücke** `Win + R`, gib ein:  
+   ```
+   shell:startup
+   ```
+   **und drücke Enter**. Das öffnet den Autostart-Ordner.  
+2. **Ziehe** dein `.ahk`-Skript oder eine Verknüpfung davon in diesen Ordner.  
+3. Beim nächsten Start wird es automatisch ausgeführt.  
+
+---
+
+### **Methode 2: Geplante Aufgabe erstellen** (falls Adminrechte nötig sind)  
+Falls dein Skript Adminrechte braucht oder du es mit Verzögerung starten willst:  
+1. **Drücke** `Win + S`, suche nach „Aufgabenplanung“ und öffne sie.  
+2. Klicke rechts auf „Einfache Aufgabe erstellen…“.  
+3. Gib einen Namen (z. B. „AutoHotkey Startup“) und klicke „Weiter“.  
+4. Wähle **„Beim Start des Computers“** und klicke „Weiter“.  
+5. Wähle **„Programm starten“**, dann „Weiter“.  
+6. Klicke auf „Durchsuchen“ und wähle dein `.ahk`-Skript aus.  
+7. Setze ein Häkchen bei **„Mit höchsten Privilegien ausführen“** (falls Adminrechte nötig).  
+8. Klicke auf „Fertig stellen“.  
+
+Damit läuft das Skript jedes Mal beim Hochfahren. 🚀
 
 
-
-
+</details>
 
 
 

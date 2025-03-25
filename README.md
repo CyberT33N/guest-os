@@ -18,6 +18,14 @@ List for software/dependencies for any guest OS when you want to start developin
 - KeePassXC - Cross-Platform Password Manager (https://keepassxc.org/download/)
 - Gitlab Docker (https://hub.docker.com/r/gitlab/gitlab-ce)
 
+
+## Firefoxc
+
+### Extensions
+- https://addons.mozilla.org/en-US/firefox/addon/hls-downloader/
+  - https://github.com/puemos/hls-downloader 
+
+
 <br><br>
 
 ## Chromium

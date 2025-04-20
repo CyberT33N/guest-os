@@ -554,6 +554,7 @@ ___________________________________________
 <br><br>
 
 # Fonts
+- https://vercel.com/font **HOT**
 - https://www.nerdfonts.com/font-downloads
 
 - https://github.com/tonsky/FiraCode

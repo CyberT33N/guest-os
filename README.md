@@ -167,6 +167,19 @@ ___________________________________________
 # Linux
 - Confluence Server (https://www.atlassian.com/de/software/confluence/download)
 
+
+## ubuntu
+
+- 7zip
+```shell
+sudo apt install p7zip-full p7zip-rar
+```
+
+
+
+
+
+
 - Yakuake Dropdown Terminal (https://apps.kde.org/en/yakuake)
   - Try first to install it via apps.kde link because there are sometimes problems with the snap version and it wont start
 ```shell

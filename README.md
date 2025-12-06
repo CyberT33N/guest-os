@@ -170,6 +170,24 @@ ___________________________________________
 
 ## ubuntu
 
+
+- system settings > fonts 
+  - enable anti-aliasing
+ 
+    General font: Noto Sans 11pt
+    sub pixel rendering: rgb
+    hinting: full
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
 - 7zip
 ```shell
 sudo apt install p7zip-full p7zip-rar

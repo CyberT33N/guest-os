@@ -171,17 +171,30 @@ ___________________________________________
 ## ubuntu
 
 
-- system settings > fonts 
-  - enable anti-aliasing
- 
-General font: Noto Sans 11pt
-Small: CaskaydiaCove Nerd Font 9pt
-Toolbar: CodeNewRoman Nerd Font 10pt
-Menu: CaskaydiaCove Nerd Font 10pt
-Window Title: CPMono_v07_Light
 
-sub pixel rendering: rgb
-hinting: full
+### Kurzantwort
+
+Ja, die **Rendering‑Einstellungen sehen gut** aus:  
+**Anti-Aliasing an, Sub‑pixel RGB, Hinting „Full“, Force font DPI 120** → das ist für „Windows‑Feeling“ absolut sinnvoll.
+
+### Welche Fonts solltest du wo nehmen?
+
+Du **musst** nichts Bestimmtes nehmen, aber für ein ruhiges, „Windows‑ähnliches“ Bild würde ich es deutlich vereinfachen und fast überall **denselben Font** nutzen:
+
+- **General**: `Trebuchet MS 11pt`  ✅ (passt, nah an Segoe UI)
+- **Fixed width**: z.B. `Hack 10pt` oder `CaskaydiaCove Nerd Font 10pt`  
+  → hier ist eine Monospace‑Schrift korrekt, gerade für Terminal/Editor.
+- **Small**: `Trebuchet MS 9pt`
+- **Toolbar**: `Trebuchet MS 10pt`
+- **Menu**: `Trebuchet MS 10pt`
+- **Window title**: `Trebuchet MS 11–12pt` (gern „Bold“, falls auswählbar)
+
+Also Empfehlung:  
+- **Nur eine UI‑Schrift** (Trebuchet MS) für General/Small/Toolbar/Menu/Window title  
+- **Eine Monospace‑Schrift** (Hack oder CaskaydiaCove) für Fixed width  
+
+Dann wirkt alles deutlich einheitlicher und kommt dem Look von Windows 11 sehr nahe.
+
 
 
 

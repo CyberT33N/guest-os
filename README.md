@@ -179,22 +179,13 @@ Ja, die **Rendering‑Einstellungen sehen gut** aus:
 
 ### Welche Fonts solltest du wo nehmen?
 
-Du **musst** nichts Bestimmtes nehmen, aber für ein ruhiges, „Windows‑ähnliches“ Bild würde ich es deutlich vereinfachen und fast überall **denselben Font** nutzen:
-
-- **General**: `Trebuchet MS 11pt`  ✅ (passt, nah an Segoe UI)
-- **Fixed width**: z.B. `Hack 10pt` oder `CaskaydiaCove Nerd Font 10pt`  
+- **General**: `Geist Light 12pt`  ✅ (passt, nah an Segoe UI)
+- **Fixed width**: z.B. `Geist Mono 11pt` oder `CaskaydiaCove Nerd Font 10pt`  
   → hier ist eine Monospace‑Schrift korrekt, gerade für Terminal/Editor.
-- **Small**: `Trebuchet MS 9pt`
-- **Toolbar**: `Trebuchet MS 10pt`
-- **Menu**: `Trebuchet MS 10pt`
-- **Window title**: `Trebuchet MS 11–12pt` (gern „Bold“, falls auswählbar)
-
-Also Empfehlung:  
-- **Nur eine UI‑Schrift** (Trebuchet MS) für General/Small/Toolbar/Menu/Window title  
-- **Eine Monospace‑Schrift** (Hack oder CaskaydiaCove) für Fixed width  
-
-Dann wirkt alles deutlich einheitlicher und kommt dem Look von Windows 11 sehr nahe.
-
+- **Small**: `Geist Light 10pt`
+- **Toolbar**: `Geist Light 11pt`
+- **Menu**: `Geist Light 11pt`
+- **Window title**: `Geist Black 11pt` (gern „Bold“, falls auswählbar)
 
 
 

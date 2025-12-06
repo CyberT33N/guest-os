@@ -174,9 +174,14 @@ ___________________________________________
 - system settings > fonts 
   - enable anti-aliasing
  
-    General font: Noto Sans 11pt
-    sub pixel rendering: rgb
-    hinting: full
+General font: Noto Sans 11pt
+Small: CaskaydiaCove Nerd Font 9pt
+Toolbar: CodeNewRoman Nerd Font 10pt
+Menu: CaskaydiaCove Nerd Font 10pt
+Window Title: CPMono_v07_Light
+
+sub pixel rendering: rgb
+hinting: full
 
 
 

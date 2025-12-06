@@ -174,17 +174,21 @@ ___________________________________________
 
 ### Kurzantwort
 
+```shell
+sudo apt install ttf-mscorefonts-installer
+```
+
 Ja, die **Rendering‑Einstellungen sehen gut** aus:  
 **Anti-Aliasing an, Sub‑pixel RGB, Hinting „Full“, Force font DPI 120** → das ist für „Windows‑Feeling“ absolut sinnvoll.
 
 ### Welche Fonts solltest du wo nehmen?
 
-- **General**: `Geist Light 12pt`  ✅ (passt, nah an Segoe UI)
+- **General**: `Threbuchet MS 11,5pt`  ✅ (passt, nah an Segoe UI)
 - **Fixed width**: z.B. `Geist Mono 11pt` oder `CaskaydiaCove Nerd Font 10pt`  
   → hier ist eine Monospace‑Schrift korrekt, gerade für Terminal/Editor.
-- **Small**: `Geist Light 10pt`
-- **Toolbar**: `Geist Light 11pt`
-- **Menu**: `Geist Light 11pt`
+- **Small**: `Threbuchet MS 9pt`
+- **Toolbar**: `Threbuchet MS 11pt`
+- **Menu**: `Threbuchet MS 11pt`
 - **Window title**: `Geist Black 11pt` (gern „Bold“, falls auswählbar)
 
 

@@ -57,6 +57,10 @@ ___________________________________________
 - Live Wallpaper (https://rocksdanister.github.io/lively/)
 - Confluence Server (https://www.atlassian.com/de/software/confluence/download)
 
+
+## Debloat
+- https://github.com/Raphire/Win11Debloat/tree/master
+
 <br><br>
 
 ## Guides

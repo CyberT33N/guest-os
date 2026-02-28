@@ -655,6 +655,12 @@ ___________________________________________
 # KDE
 
 
+
+
+## Deactivate Mouse Mark
+- Turn off "Mouse Mark" in Desktop Effects. If you do not want to accedently draw lines
+
+
 <br><br>
 <br><br>
 

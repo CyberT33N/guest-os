@@ -174,6 +174,17 @@ ___________________________________________
 
 ## ubuntu
 
+### Wayland
+- https://github.com/CyberT33N/ubuntu-cheat-sheet/blob/master/docs/display-server-protocol/wayland/general.md
+
+
+
+
+
+
+
+
+
 
 
 ### Kurzantwort

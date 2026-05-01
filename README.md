@@ -704,6 +704,17 @@ ___________________________________________
 - https://www.freepik.com/free-vector/twitch-stream-panels-collection_9147552.htm#fromView=search&page=1&position=36&uuid=8f26d9b1-ac06-4901-98ba-056287c1d4a1
 
 
+Hintergrundbild im Konsole-Profil setzen
+Konsole → Einstellungen → Profil bearbeiten → Erscheinungsbild
+
+Dann:
+
+Farbschema auswählen (z. B. Breeze oder eigenes)
+Rechts auf „Bearbeiten…“ klicken
+Im Farbschema-Editor findest du:
+
+👉 „Hintergrundbild“ / „Background Image“
+
 Choose wallpaper and stretch
 
 Go to apperance > Miscellaneous and set
